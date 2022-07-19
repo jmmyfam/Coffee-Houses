@@ -1,0 +1,27 @@
+.pageHeader {
+    text-align: center;
+    border: 1px solid yellow
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 300px;
+    
+}
+
+.shop {
+    border: 1px dotted black;
+    width: 300px;
+    background-color: rgb(69, 167, 212);
+    
+     
+}
+
+.shop:hover {
+    background-color: rgb(209, 138, 138);
+    padding: 5px;
+    font-style: italic;
+    
+}
